@@ -4,6 +4,10 @@
 sudo mkdir -p /var/www/html/example.com/public
 sudo chown -R www-data:www-data /var/www/html/example.com/public
 
+# Set permissions for the web root and its contents
+sudo chmod -R 755 /var/www/html
+sudo find /var/www/html -type f -exec chmod 644 {} \;
+
 # Create index.php file
 echo '<?php phpinfo(); ?>' | sudo tee /var/www/html/example.com/public/index.php > /dev/null
 
