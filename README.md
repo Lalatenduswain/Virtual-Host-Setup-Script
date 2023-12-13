@@ -9,8 +9,44 @@ Before running this script, ensure that you have the necessary permissions and d
 - **Permissions:** The script uses `sudo` commands, so make sure your user has the required permissions.
 
 - **Apache:** Make sure Apache is installed and running on your system.
-
+  
 ## Usage
+
+To use this script, follow these steps:
+
+1. Clone this repository to your server:
+
+   ```bash
+   git clone https://github.com/Lalatenduswain/Virtual-Host-Setup-Script.git
+   ```
+
+2. Navigate to the repository directory:
+
+   ```bash
+   cd Virtual-Host-Setup-Script
+   ```
+
+3. Make the script executable:
+
+   ```bash
+   chmod +x setup_example_com.sh
+   ```
+
+4. Run the script:
+
+   ```bash
+   ./setup_example_com.sh
+   ```
+5. At Once Run the script:
+
+   ```bash
+   git clone https://github.com/Lalatenduswain/Virtual-Host-Setup-Script.git
+   cd Virtual-Host-Setup-Script
+   chmod +x setup_example_com.sh
+   ./setup_example_com.sh
+   ```
+
+## Usage Short
 
 1. Download the script or copy the content.
 2. Make the script executable: `chmod +x setup_example_com.sh`
